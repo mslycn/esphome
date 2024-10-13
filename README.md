@@ -97,6 +97,24 @@ git push -u origin main
 
 
 
+Useful links
+
+可充电HC-SR501人体感应传感器
+https://mp.weixin.qq.com/s/vA-lqT7bzfF5ig_a6ZA54Q?poc_token=HHmXB2ejIjsO150y6rWY9G5oKqkfbEhuJ_oTVfQx
+
+ESP8266 NodeMCU V3 Multi Sensor with Home Assistant (ESPHome)
+ESP8266 NodeMCU V3 with Multisensor
+
+IR Flame Detector Sensor
+LDR Light Sensor
+RCWL-0516 Microwave Radar Motion Sensor
+DS18B20 Temperature Sensor
+
+https://www.elec-cafe.com/esp8266-nodemcu-v3-multi-sensor-with-home-assistant-esphome/
+
+
+
+
 
 
 
