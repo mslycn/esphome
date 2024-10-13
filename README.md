@@ -2,6 +2,7 @@
 ## Project Information
 
 local:F:\developer_Xiaomi\EspHome
+
 remote:https://github.com/mslycn/esphome
 
 ## ESPHome - Hardware
@@ -29,7 +30,7 @@ TOF10120激光测距模块
 
 ## Esp32 bluetooth proxy
 
-ESPHome Bluetooth Proxy ->Bluetooth integration ->xiaomi BLE integration
+Esp32 ESPHome Bluetooth Proxy ->Bluetooth integration ->xiaomi BLE integration
 
 This is because an ESPHome Bluetooth Proxy is forwarding its data to the official Bluetooth integration in Home Assistant. The Bluetooth integration is forwarding the data to a brand specific integration(for example xiaomi BLE integration).
 
@@ -37,7 +38,7 @@ source:https://custom-components.github.io/ble_monitor/parse_data#extend-bluetoo
 
 ## Passive BLE Monitor integration
 
-ESPHome BLE Gateway -> Passive BLE Monitor integration
+Esp32 ESPHome BLE Gateway -> Passive BLE Monitor integration
 
 Passive BLE Monitor integration is using its own Bluetooth collecting mechanism based on aioblescan which is working at a lower level (HCI). BLE monitor is not using the Bluetooth integration to receive its data, and is therefore not able to receive data from ESPHome Bluetooth Proxies. You can use ESPHome BLE Gateway instead, which is forwarding the data to to Passive BLE Monitor integration.
 
