@@ -56,6 +56,12 @@ detail:https://custom-components.github.io/ble_monitor/configuration_params#conf
 https://custom-components.github.io/ble_monitor/parse_data#extend-bluetooth-range-with-esphome-ble-gateway
 
 
+
+## Private BLE Device integration
+
+可以直接跟踪iPhone等各种蓝牙设备，离家回家检测更简单
+
+
 Git Bash
 
 cd f:
@@ -75,8 +81,9 @@ $ git add .
 
 git commit -m "first commit"
 
+ git add set-url origin https://mslycn:9W@github.com/mslycn/HEspHome.git
 
-git remote set-url origin https://mslycn:9W@github.com/mslycn/HomeKit.git
+git remote set-url origin https://mslycn:9W@github.com/mslycn/HEspHome.git
 
 git branch -M main
 
