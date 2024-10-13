@@ -1,4 +1,8 @@
 
+## Project Information
+
+local:F:\developer_Xiaomi\EspHome
+remote:https://github.com/mslycn/esphome
 
 ## ESPHome - Hardware
 ~~~
