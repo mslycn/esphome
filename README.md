@@ -113,6 +113,9 @@ DS18B20 Temperature Sensor
 https://www.elec-cafe.com/esp8266-nodemcu-v3-multi-sensor-with-home-assistant-esphome/
 
 
+https://esp32io.com/tutorials/esp32-tm1637-4-digit-7-segment-display
+
+
 
 
 
