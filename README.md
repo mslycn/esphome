@@ -5,6 +5,10 @@ local:F:\developer_Xiaomi\EspHome
 
 remote:https://github.com/mslycn/esphome
 
+通过XESP32S3  通过 ESPHome 与 Home Assistant 连接，
+
+我们可以让ESP32作为主心骨，接下来就是学习其他外设有机衔接从而完成功能，进而丰富我们的生活
+
 ## ESPHome - Hardware
 ~~~
  ESP32
@@ -94,6 +98,14 @@ git branch -M main
 
 git push -u origin main
 
+~~~
+Micropython and ESP32
+Arduino and ESP32
+
+
+~~~
+
+## Projects List
 
 
 
@@ -114,6 +126,11 @@ https://www.elec-cafe.com/esp8266-nodemcu-v3-multi-sensor-with-home-assistant-es
 
 
 https://esp32io.com/tutorials/esp32-tm1637-4-digit-7-segment-display
+
+
+各种芯片指南
+
+https://eeworld-1304436219.cos.ap-nanjing.myqcloud.com/html/Peripheral/Peripheral-docs/arduino-boards/install-usb-driver.html
 
 
 
