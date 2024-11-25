@@ -1,3 +1,16 @@
+step 1.new device
+
+step 2.get fireware
+
+To get the factory file of your ESPHome project:
+~~~
+Open your ESPHome dashboard
+Find your device card click on menu (more_vert)
+Click on Install
+Click on Manual Download
+Click on Modern Format
+~~~
+
 
 
 0.5寸4位数码管显示模块带时钟点TM1637  https://detail.tmall.com/item.htm?_u=e1ed9ujb1a3&id=609148009199&spm=a1z09.2.0.0.4a5b2e8dPahAAd
