@@ -1,4 +1,7 @@
-key
+本篇学习把esp32接入home assistant的全过程，涉及配置文件的生成和固件的编译。
+然后简单的让浏览器帮我们写入已生成的固件（via https://web.esphome.io/）。
+
+key points
 1. 搭建开发环境( install esphome addon)
 
 2. 生成配置文件（new devie）

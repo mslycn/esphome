@@ -1,3 +1,8 @@
+本篇学习把esp32接入home assistant的全过程，涉及配置文件的生成和固件的编译。
+然后简单的使用ota写入已生成的固件（via https://web.esphome.io/）。
+
+
+
 step 1.new device
 
 step 2.get fireware

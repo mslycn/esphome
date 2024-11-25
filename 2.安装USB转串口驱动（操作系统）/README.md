@@ -1,3 +1,6 @@
+本篇学习把esp32接入home assistant的全过程，不涉及配置文件的生成和固件的编译。
+简单的让浏览器帮我们写入固件（via https://web.esphome.io/）。
+
 ## Key Points
 
 查看是否已安装usb转串口驱动；
