@@ -70,6 +70,13 @@ https://custom-components.github.io/ble_monitor/parse_data#extend-bluetooth-rang
 
 可以直接跟踪iPhone等各种蓝牙设备，离家回家检测更简单
 
+## basic
+
+https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part1/
+
+https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part2/
+
+## git
 
 Git Bash
 
@@ -78,7 +85,7 @@ cd F:/developer_Xiaomi/EspHome
 
 $ git init
 
-$ git config user.email "36*@mail.com"
+$ git config user.email "****@mail.com"
 
 
 $ git config user.name "mslycn"
@@ -131,6 +138,15 @@ https://esp32io.com/tutorials/esp32-tm1637-4-digit-7-segment-display
 各种芯片指南
 
 https://eeworld-1304436219.cos.ap-nanjing.myqcloud.com/html/Peripheral/Peripheral-docs/arduino-boards/install-usb-driver.html
+
+
+useful links
+
+github 中的各种开发板安装包文件过大，网速又不好，造成 Arduino IDE 在线自动安装 ESP32 等开发板的软件包不易成功。
+
+本文介绍离线安装方法。该方法同时适用于 Windows 和 Linux
+
+source:https://eeworld-1304436219.cos.ap-nanjing.myqcloud.com/html/Peripheral/Peripheral-docs/Esp32/install-esp32-arduino.html
 
 
 

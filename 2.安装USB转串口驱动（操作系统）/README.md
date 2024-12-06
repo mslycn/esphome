@@ -39,3 +39,21 @@ cp2102 (原版)
 ## step 2.Open https://web.esphome.io/
 
 https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part1/
+
+
+## step 3. project
+
+https://esphome.io/projects/index.html
+
+Voice assistant
+
+Bluetooth proxy
+
+Media Player
+
+ESPresense
+
+https://espresense.com/firmware
+
+
+## step 4. project
