@@ -20,9 +20,22 @@ You will need a USB cable to connect esp and HA to be able to upload yaml to esp
 Then look here
 
 ## step 1. Install the ESPHome addon to HA.
+To install ESPHome addon run the following command in your Home assistant OS.
+
+When properly installed the following command should return the installed esphome version:
+
+
+
 
 
 ## step 2.New device
+Now you are ready to configure the sensor board.
+
+Create ESPHome config
+
+The esphome tool has a nice wizard to create a configuration file. To create a config called office.yml type the following in your terminal:
+
+
 
 
 ## step 3. get fireware
@@ -38,6 +51,10 @@ Click on Modern Format
 
 
 ## step4. upload fireware to esp32 via ttps://web.esphome.io/
+
+Connect usb and upload
+
+Connect the usb to your computer. You should now be able to see a tty.usbserial device:
 
 Open https://web.esphome.io/
 

@@ -1,3 +1,7 @@
+Integrate your own sensors using ESPHome.These steps will prepare your computer to deploy the sensor board and integrate into Home-Asssistant.
+
+ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems. It allows to define your sensor-board in terms of a yaml file and will generate and upload code to the ESP8266/ESP32 board.
+
 
 ## Project Information
 
