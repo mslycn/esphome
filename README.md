@@ -13,6 +13,14 @@ remote:https://github.com/mslycn/esphome
 
 我们可以让ESP32作为主心骨，接下来就是学习其他外设有机衔接从而完成功能，进而丰富我们的生活
 
+Setting Up ESP32 with ESPHome Web Installer
+
+Setting Up ESP32 with ESPHome Dashboard
+
+
+
+
+
 ## ESPHome - Hardware
 ~~~
  ESP32
