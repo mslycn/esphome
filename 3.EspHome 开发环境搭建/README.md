@@ -63,3 +63,5 @@ https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part2/
 https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part1/
 
 在从github上克隆ESP8266_RTOS_SDK时会经常超时失败，很耽误时间，现在乐鑫有了国内镜像：https://gitee.com/EspressifSystems
+
+
