@@ -179,6 +179,19 @@ https://eeworld-1304436219.cos.ap-nanjing.myqcloud.com/html/Peripheral/Periphera
 
 
 
+https://github.com/esphome/bluetooth-proxies
+
+https://github.com/esphome/home-assistant-voice-pe
+
+https://github.com/esphome/wake-word-voice-assistants
+
+
+## source code for esp-web-tools
+
+https://github.com/esphome/firmware/blob/main/esp-web-tools/esp32.yaml
+
+
+
 useful links
 
 github 中的各种开发板安装包文件过大，网速又不好，造成 Arduino IDE 在线自动安装 ESP32 等开发板的软件包不易成功。

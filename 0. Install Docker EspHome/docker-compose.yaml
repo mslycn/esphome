@@ -1,5 +1,29 @@
-version: "3"
+## Docker ESPHome using Docker Compose
 
+/data/docker/esphome/docker-compose.yml
+
+run ok 20250125
+
+~~~
+services:
+  esphome:
+    container_name: esphome
+    image: ghcr.io/esphome/esphome
+    volumes:
+      - /data/docker/esphome/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    privileged: true
+    network_mode: host
+    environment:
+      - USERNAME=esphome
+      - PASSWORD=esphome
+
+~~~
+
+
+
+~~~
 services:
   esphome:
     #image: esphome/esphome:beta
@@ -29,4 +53,4 @@ services:
       - 6123:6123
     restart: unless-stopped
 
- 
+~~~ 

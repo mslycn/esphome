@@ -1,7 +1,8 @@
 本篇学习把esp32接入home assistant的全过程，涉及配置文件的生成和固件的编译。
 然后简单的让浏览器帮我们写入已生成的固件（via https://web.esphome.io/）。
 
-key points
+## key points（HassOS）
+
 1. 搭建开发环境( install esphome addon)
 
 2. 生成配置文件（new devie）
@@ -12,12 +13,18 @@ key points
 
 5. 上传固件到esp32（）
 
+## Quick Start
+~~~
+Install the ESPHome addon to HA.（Install ESPHome in your Home Assistant environment to easily configure and manage the ESP32）
 
-Install the ESPHome addon to HA.
 Buy an esp8266 or esp32 board. You can also buy a smaller esp D1 mini.
 Buy the BH1750 sensor.
+
 You will need a USB cable to connect esp and HA to be able to upload yaml to esp.
 Then look here
+~~~
+
+## Step by Step
 
 ## step 1. Install the ESPHome addon to HA.
 To install ESPHome addon run the following command in your Home assistant OS.

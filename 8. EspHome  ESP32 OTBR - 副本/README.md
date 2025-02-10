@@ -1,5 +1,6 @@
 
 Install the ESPHome addon to HA.
+
 Buy an esp8266 or esp32 board. You can also buy a smaller esp D1 mini.
 Buy the BH1750 sensor.
 You will need a USB cable to connect esp and HA to be able to upload yaml to esp.
