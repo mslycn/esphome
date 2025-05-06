@@ -1,3 +1,55 @@
+Guidelines for choosing hardware components to work with ESPHome
+
+- 精彩众创教程
+	- [搭建个人智能家居 -搭建Home Assistant）](https://yourcee.blog.csdn.net/article/details/134979153)
+    - [搭建个人智能家居 -购买-ESPHome Hardware-ESP01s]
+    - [搭建个人智能家居 -购买-ESPHome Hardware-ESP32]
+    - [搭建个人智能家居 -usb正确链接、驱动及检查]
+    - [搭建个人智能家居 -烧录ESPHOME固件(via web tools)]
+    - [搭建个人智能家居 -将ESP32设备集成到Home Assistant(如何将ESP设备接入到Home Assistant?)]
+    - [搭建个人智能家居 -安装ESPHome](https://yourcee.blog.csdn.net/article/details/135544790)
+    - [搭建个人智能家居 -点亮esp32板载LED灯]
+	- [搭建个人智能家居 -点亮esp32外接LED灯](https://yourcee.blog.csdn.net/article/details/136673356)
+	- 魔镜系列：获取HomeAssistant中实体状态(by JonnyWong)
+	- 魔镜系列：联动智能音箱(by JonnyWong)
+	- 在群晖中安装ESPHome(by Bobo)
+	- ESPHome-SonoffBasic完整接入过程(by Bobo)
+	- ESPHome-接入SonoffRF(by Bobo)
+	- ESPHome-接入SonoffPow(by Bobo)
+	- ESPHome-接入Sonoff4CH4路继电器(by Bobo)
+	- ESPHome-H801玩转RGB+冷暖光(by Bobo)
+	- Esphome-空气质量传感器(by Bobo)
+	- EspHome-DIY小屏幕(by Bobo)
+	- 设计与制作PCB板(by Zack-Xu)
+	- 树莓派安装HASS.IO(by Zack-Xu)
+	- HASSIO.IO与常规运行环境区别(by Zack-Xu)
+	- x86下ubuntu虚机及HomeAssistant安装（by 猛将兄）
+    - [PCB打板]
+
+
+源码地址  实物图片 接线图片 购买链接
+
+
+
+
+
+用esp32点亮一个LED灯
+
+搭建 ESP32 硬件开发的软件环境
+
+安装和配置 ESPHome
+
+生成bin文件
+
+
+
+OTA升级
+
+## 选板子
+
+为了保证OTA升级，建议选择4M 以上flash的核心板
+
+
 # Complete Guide to ESPHome - Open Source ESPHome Setup
 
 Integrate your own sensors using ESPHome.These steps will prepare your computer to deploy the sensor board and integrate into Home-Asssistant.
@@ -41,7 +93,7 @@ Esp32
 
 Esp32 Expansion board
 
-PCB打板
+
 
 
 TOF10120激光测距模块
@@ -111,7 +163,7 @@ $ git add .
 
 git commit -m "first commit"
 
- git add set-url origin https://mslycn:9W@github.com/mslycn/HEspHome.git
+git add set-url origin https://mslycn:9W@github.com/mslycn/HEspHome.git
 
 git remote set-url origin https://mslycn:9W@github.com/mslycn/HEspHome.git
 
@@ -178,6 +230,8 @@ https://eeworld-1304436219.cos.ap-nanjing.myqcloud.com/html/Peripheral/Periphera
 安装开发板软件包：Arduino IDE>开发板>开发板管理器>esp32>安装
 
 
+
+https://github.com/esphome
 
 https://github.com/esphome/bluetooth-proxies
 

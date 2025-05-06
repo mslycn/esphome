@@ -7,7 +7,7 @@ ESPHome can be easily installed through docker.
 
 ## Instll Docker ESPHome via Command Line
 
-Getting Started with the ESPHome Command Line.
+Getting Started with the ESPHome Command Line.Installing ESPHome Manually.
 
 ~~~
 docker pull ghcr.io/esphome/esphome:stable
@@ -35,13 +35,15 @@ Installing Docker ESPHome and configuring ESPHome with ESP8266 and ESP32
 
 https://chelmiki.com/posts/installing-and-configuring-esphome/
 
-
+https://docs.sunfounder.com/projects/raspad3-cn/zh/latest/iot/homeassistant/install_and_configure_esphome.html
 
 
 
 ## docker-compose.yaml
 
-cd /root/esphome-configs
+cd /data/docker/esphome
+
+docker-compose up -d
 
 
 docker-compose up -d

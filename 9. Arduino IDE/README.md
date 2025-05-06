@@ -1,0 +1,2 @@
+如何使用ESP32开发板与INMP441麦克风模块进行音频采集，并通过UDP将音频数据传输到Windows主机进行播放。
+https://blog.csdn.net/m0_74276051/article/details/143181595

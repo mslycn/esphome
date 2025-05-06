@@ -26,6 +26,8 @@ esp32是否处于烧录模式
 
 ### 安装USB驱动
 
+You’ll need to have CP210x drivers（CP210x USB to UART Bridge VCP Drivers ） installed to flash the firmware.
+
 如果你在电脑上USB正常插入 Arduino 板后，在 Arduino IDE 中看不到该板，那说明你还需要安装开发板的 USB 驱动程序。
 
 目前主流的 Arduino 开发板一般使用以下两种驱动芯片：
