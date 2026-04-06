@@ -1,4 +1,6 @@
-Guidelines for choosing hardware components to work with ESPHome
+# Guidelines for choosing hardware components to work with ESPHome
+# ESPHome 从入门到精通
+
 
 - 精彩众创教程
 	- [搭建个人智能家居 -搭建Home Assistant）](https://yourcee.blog.csdn.net/article/details/134979153)
@@ -92,6 +94,9 @@ Setting Up ESP32 with ESPHome Dashboard
 Esp32
 
 Esp32 Expansion board
+
+
+step 1.Flash ESP32 via a cable attached to the esphome computer.
 
 
 

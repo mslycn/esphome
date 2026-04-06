@@ -72,3 +72,28 @@ https://blog.matterxiaomi.com/blog/esphome-esp32-pir-hc-sr501-part1/
 在从github上克隆ESP8266_RTOS_SDK时会经常超时失败，很耽误时间，现在乐鑫有了国内镜像：https://gitee.com/EspressifSystems
 
 
+- log
+
+编译时，需要下载一些库，很慢，经常下载失败。
+
+~~~
+INFO ESPHome 2025.7.5
+INFO Reading configuration /config/esp32no2.yaml...
+WARNING GPIO15 is a strapping PIN and should only be used for I/O with care.
+Attaching external pullup/down resistors to strapping pins can cause unexpected failures.
+See https://esphome.io/guides/faq.html#why-am-i-getting-a-warning-about-strapping-pins
+WARNING GPIO2 is a strapping PIN and should only be used for I/O with care.
+Attaching external pullup/down resistors to strapping pins can cause unexpected failures.
+See https://esphome.io/guides/faq.html#why-am-i-getting-a-warning-about-strapping-pins
+INFO Generating C++ source...
+INFO Compiling app...
+Processing esp32-devkitv1-no2 (board: esp32dev; framework: arduino; platform: https://github.com/pioarduino/platform-espressif32/releases/download/53.03.13/platform-espressif32.zip)
+--------------------------------------------------------------------------------
+Tool Manager: Installing https://github.com/espressif/arduino-esp32/releases/download/3.1.3/esp32-3.1.3.zip
+INFO Installing https://github.com/espressif/arduino-esp32/releases/download/3.1.3/esp32-3.1.3.zip
+Downloading  [------------------------------------]    1%  00:03:59
+...
+
+~~~
+
+

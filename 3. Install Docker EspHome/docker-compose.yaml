@@ -2,13 +2,13 @@
 
 /data/docker/esphome/docker-compose.yml
 
-run ok 20250125
+run ok 20250825
 
 ~~~
 services:
   esphome:
     container_name: esphome
-    image: ghcr.io/esphome/esphome
+    image: ghcr.io/esphome/esphome:2025.2.0
     volumes:
       - /data/docker/esphome/config:/config
       - /etc/localtime:/etc/localtime:ro
@@ -22,7 +22,7 @@ services:
 
 
 
-
+no test
 
 ~~~
 services:

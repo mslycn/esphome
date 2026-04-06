@@ -3,6 +3,8 @@ Follow this tutorial to configure ESP32 to use your ESPhome.
 本篇学习把esp32接入home assistant的全过程，不涉及配置文件的生成和固件的编译。
 简单的让浏览器帮我们写入固件（via https://web.esphome.io/）。
 
+detail:https://blog.matterxiaomi.com/blog/esphome-esp32-part1/#mcetoc_1ide17tct1
+
 # Connect your device to your PC
 
 Plug in your ESP32 board to PC using a USB data cable, ensure your ESP32 board device is properly powered and detected by your computer.
@@ -44,6 +46,14 @@ ch340/ch341 (国产替代)
 为了方便，事实上以上两种驱动都可以装上。
 
 如果你用的是 Linux 系统，特别是较新的 Ubuntu，如 ubuntu 22.04，它一般都是自带这两种驱动的。若在 IDE 中找不到相应的开发板，一般是因为端口被占用所致，进一步阅读后续章节。或者也在网上可以找到解决办法。
+
+esp32恢复出厂设置
+
+按住boot en不放
+
+重启windows 10
+
+
 
 # No programming or other software required.
 
